@@ -1,4 +1,4 @@
-# Validação do projeto
+43# Validação do projeto
 
 Este guia reúne os procedimentos para confirmar que o ambiente e as principais
 ferramentas estão funcionando.
