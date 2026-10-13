@@ -35,6 +35,24 @@
       "especie": "Coelho",
       "tutorId": "Carlos",
       "id": "8pdmB4d_gN4"
+    },
+    {
+      "nome": "porraa",
+      "especie": "Gato",
+      "tutorId": "1",
+      "id": "r0mLDRFpnuE"
+    },
+    {
+      "nome": "sasas",
+      "especie": "Gato",
+      "tutorId": "2",
+      "id": "0vhQ6v8Ccss"
+    },
+    {
+      "nome": "see",
+      "especie": "Cachorro",
+      "tutorId": "1",
+      "id": "HePfPIrWADw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
