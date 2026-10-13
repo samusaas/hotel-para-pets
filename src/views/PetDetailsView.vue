@@ -20,18 +20,18 @@ async function carregarPet() {
     console.log('tutor', tutor.value);
 }
 
-onMounted(carregarPet())
+onMounted(carregarPet)
 </script>
 <template>
 
-    <section v-if="pet == null">
+    <section v-if="pet === null">
         <p>carregandoo...</p>
     </section>
 
-    
+
       <section v-else>
     <h1> Nome do Pet: {{ pet.nome }}</h1>
-    <p>tutor:{{ tutor.nome }}</p>
+    <p>tutor:{{ tutor?.nome }}</p>
     <h5>espécie: {{ pet.especie }}</h5>
     </section>
 
