@@ -7,24 +7,32 @@ const API_URL = "http://localhost:3000";
 const pet = ref(null);
 const tutor = ref(null);
 
-async function carregrPet() {
+async function carregarPet() {
     const idPet = route.params.id;
-    const respostaPet = await fetch(`${API_URL}/pets/{idPet}`);
+    const respostaPet = await fetch(`${API_URL}/pets/${idPet}`);
     console.log('respostaPet', respostaPet);
 
     pet.value = await respostaPet.json();
     console.log('pet', pet.value);
 
     const respostaTutor = await fetch(`${pet.value.tutorId}`);
-    tutor.value = await respostaTutos.json();
+    tutor.value = await respostaTutor.json();
     console.log('tutor', tutor.value);
 }
 
-onMounted(carregrPet())
+onMounted(carregarPet())
 </script>
 <template>
-    <h1> Nome do Pet:
-    </h1>
-    <p>tutor:</p>
-    <h5>espécie:</h5>
+
+    <section v-if="pet == null">
+        <p>carregandoo...</p>
+    </section>
+
+    
+      <section v-else>
+    <h1> Nome do Pet: {{ pet.nome }}</h1>
+    <p>tutor:{{ tutor.nome }}</p>
+    <h5>espécie: {{ pet.especie }}</h5>
+    </section>
+
 </template>

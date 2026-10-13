@@ -13,21 +13,9 @@
   ],
   "pets": [
     {
-      "id": "1",
-      "nome": "Safira",
-      "especie": "Cachorro",
-      "tutorId": "1"
-    },
-    {
-      "id": "2",
-      "nome": "Nino",
-      "especie": "Gato",
-      "tutorId": "1"
-    },
-    {
       "nome": "porra",
       "especie": "Cachorro",
-      "tutorId": "",
+      "tutorId": "cacetinho",
       "id": "Jz75dFmldx8"
     },
     {
