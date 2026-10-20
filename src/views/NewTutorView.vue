@@ -18,6 +18,7 @@ async function carregarTutores() {
 const novoTutor = ref({
   nome: '',
   telefone: '',
+  email: ''
 });
 
 async function salvarTutor() {
@@ -70,7 +71,7 @@ onMounted(carregarTutores)
       </div>
 
      <div class="col-md-6">
-          <div class="class">
+       
         <label
           for="telefone"
           class="form-label"
@@ -84,7 +85,23 @@ onMounted(carregarTutores)
           v-model="novoTutor.telefone"
           required
         />
+        </div>
 
+     <div class="col-md-6">
+          <div class="class">
+        <label
+          for="email"
+          class="form-label"
+        >
+          Email:
+        </label>
+        <input
+          type="text"
+          class="form-control"
+          id="email"
+          v-model="novoTutor.email"
+          required
+        />
       </div>
 
 

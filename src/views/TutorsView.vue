@@ -41,8 +41,10 @@ onMounted(carregarDados)
     <table class="table table-striped table-hover">
       <thead>
         <tr>
+          <th>Id</th>
           <th>Nome</th>
           <th>Telefone</th>
+          <th>Email</th>
           <th>Ações</th>
         </tr>
       </thead>
@@ -50,8 +52,10 @@ onMounted(carregarDados)
 
         <tr v-for="tutor in tutores"
         :key="tutor.id">
+        <td> {{ tutor.id }}</td>
         <td> {{ tutor.nome }}</td>
         <td> {{ tutor.telefone }}</td>
+        <td> {{ tutor.email }}</td>
         <td> <RouterLink :to="`/pets/tutores/${tutor.id}`" >visualizar </RouterLink></td>
         <td> <button class="btn btn-danger" @click="excluirTutor(tutor.id)">Excluir</button></td>
         </tr>
