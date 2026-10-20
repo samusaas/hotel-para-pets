@@ -20,7 +20,7 @@ async function excluirTutor(id){
       method: 'DELETE',
     })
     carregarDados()
-  
+
   }
 
 }
@@ -52,7 +52,7 @@ onMounted(carregarDados)
         :key="tutor.id">
         <td> {{ tutor.nome }}</td>
         <td> {{ tutor.telefone }}</td>
-        <td> <RouterLink :to="`/tutores/${tutor.id}`" >visualizar </RouterLink></td>
+        <td> <RouterLink :to="`/pets/tutores/${tutor.id}`" >visualizar </RouterLink></td>
         <td> <button class="btn btn-danger" @click="excluirTutor(tutor.id)">Excluir</button></td>
         </tr>
 
