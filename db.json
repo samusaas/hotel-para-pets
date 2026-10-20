@@ -19,10 +19,10 @@
       "email": "ansda@email.com"
     },
     {
-      "nome": "sasasasa",
-      "telefone": "23212312",
-      "email": "asas",
-      "id": "DcFMUghld6c"
+      "nome": "O paunocu",
+      "telefone": "69696969669",
+      "email": "eusouumpaunocu@gozei.com",
+      "id": "Oz0jyvb7Nto"
     }
   ],
   "pets": [
@@ -61,6 +61,12 @@
       "especie": "Gato",
       "tutorId": "1",
       "id": "SMJQH3VSNsU"
+    },
+    {
+      "nome": "porararara",
+      "especie": "cachorro",
+      "tutorId": "Oz0jyvb7Nto",
+      "id": "9TverYQHZSs"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
