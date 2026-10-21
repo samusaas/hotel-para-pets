@@ -27,24 +27,6 @@
   ],
   "pets": [
     {
-      "nome": "porra",
-      "especie": "Cachorro",
-      "tutorId": "cacetinho",
-      "id": "Jz75dFmldx8"
-    },
-    {
-      "nome": "porrae",
-      "especie": "Coelho",
-      "tutorId": "Carlos",
-      "id": "8pdmB4d_gN4"
-    },
-    {
-      "nome": "porraa",
-      "especie": "Gato",
-      "tutorId": "1",
-      "id": "r0mLDRFpnuE"
-    },
-    {
       "nome": "sasas",
       "especie": "Gato",
       "tutorId": "2",
@@ -67,6 +49,12 @@
       "especie": "cachorro",
       "tutorId": "Oz0jyvb7Nto",
       "id": "9TverYQHZSs"
+    },
+    {
+      "nome": "dsds",
+      "especie": "Tartaruga",
+      "tutorId": "1",
+      "id": "vl7zFSh_HL8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
